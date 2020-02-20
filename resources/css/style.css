@@ -42,7 +42,6 @@ html {
 
 h1.hero-text-box__heading,
 h2.features__box__heading, 
-
 h3 { 
 	font-weight: 300;
 	text-transform: uppercase;
@@ -56,8 +55,8 @@ h1.hero-text-box__heading {
 	margin: 0;
 	text-align: center;
 	color: #fff;
-	font-size: 240%;
-	font-weight: 300;
+	font-size: 280%;
+	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	word-spacing: 4px;
@@ -135,7 +134,7 @@ h3.features__box__heading {
 .features__box__text {
 	font-size: 90%;
 	line-height: 145%;
-	word-wrap: break-word;
+
 /*
 	max-height: inherit;
 	max-width: inherit;
@@ -363,10 +362,18 @@ img.andy_camera {
 .section-info img.andy_cam {
 	width: 100%;
 }
+
+img.andy_cam2 {
+	width: 100%;
+	float: right;
+}
 .info-box {
 	margin-top: .3rem;
 }
 
+.info-box2 {
+	float: left;
+}
 .info-box:first-child {
 	text-align: right;
 	padding-right: 3%;
@@ -415,7 +422,7 @@ div.feature__box h3 {
 	color: #fff;
 	font-size-adjust: auto;
 	width: 30%;
-/*	max-height: 20rem;*/
+	height: 30rem;
 /*	overflow-y: hidden*/
 	
 }
@@ -427,30 +434,54 @@ div .package-feature  {
 .package-feature p {
 	font-size: 0.9rem;
 	color: black;
-/*	margin-top: 7rem;*/
+	margin-top: 7rem;
 	position: relative;
-	margin: 0 auto;
+/*	margin: 0 auto;*/
+/*	overflow: hidden;*/
+	
 
-	
-	
 }
 
 .package_img {
 	width: 100%;
 	position: absolute;
+	height: auto;
 	border-radius: 10px;
 	top: 0;
 	left: 0%;
 }
 
-button.package-button {
-	height: 2rem;
-	width: 3rem;
-	background-color: aqua;
+
+
+a.package-btn:link,
+a.package-btn:visited {   
+	color: aliceblue;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	background-color: #1F61C1;
+	height: 3rem;
+	width: 11rem;
+	text-align: center;
+	display: block;
+	position: absolute;
+	bottom: 0%;
+	overflow: hidden;
+/*	text-align: inherit;*/
+	padding: 0rem 0rem;
+/*	align-content: center;*/
+	border-radius: 20px;
+	text-decoration: none;
+    word-break: normal;
 }
 
-
-
+.btn-text {
+	display: inline-block;
+	position: absolute;
+	align-content: center;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
 
 
 
