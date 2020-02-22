@@ -71,6 +71,8 @@ h4.hero-text-box__subheading {
 	letter-spacing: 1px;
 }
 
+h4.info-
+
 .features__box__heading,
 .features__box__text,
 .section-info__heading,
@@ -367,12 +369,13 @@ img.andy_cam2 {
 	width: 100%;
 	float: right;
 }
+
 .info-box {
 	margin-top: .3rem;
 }
 
-.info-box2 {
-	float: left;
+.info-box-heading {
+	text-align: center;
 }
 .info-box:first-child {
 	text-align: right;
@@ -393,8 +396,6 @@ img.andy_cam2 {
 	line-height: 1.4rem;
 	padding: 0.1rem;
 }
-
-
 
 
 
@@ -432,14 +433,20 @@ div .package-feature  {
 	text-align: center;
 }
 .package-feature p {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	color: black;
-	margin-top: 7rem;
+	margin-top: 8rem;
 	position: relative;
+	line-height: 1.4;
+    top: 40;
 /*	margin: 0 auto;*/
 /*	overflow: hidden;*/
 	
 
+}
+
+.package__box:nth-child(2) .package-feature p {
+	margin-top: 7rem;
 }
 
 .package_img {
