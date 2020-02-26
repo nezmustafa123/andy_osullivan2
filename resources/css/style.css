@@ -108,12 +108,18 @@ h2:after {
 	margin: 1rem auto;
 }
 
+h2.section-plans__heading {
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+}
 h3.features__box__heading {
 	font-size: 90%;
 	font-weight: bold;
 	letter-spacing: 1px;
 	
 }
+
 
 
 
@@ -567,6 +573,69 @@ cite {
 
 .owl-dot.active {
 	background-color: #7c9ee6 !important;
+}
+
+
+
+/******CALENDAR******/
+
+
+
+.calendar {
+	display: block;
+	margin: 0 auto;
+}
+
+/******PLANS******/
+.section-plans {
+	background-color: #f4f4f4;
+}
+
+.plan-box {
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	
+}
+
+
+.plan-box div {
+	padding: 20px;
+	border-bottom: 1px solid #e8e8e8;
+	display: relative;
+}
+
+.plan-price {
+	font-size: 300%;
+	margin-bottom: 10px;
+	font-weight: 100;
+	color: #1F61C1;
+}
+.plan-box ul {
+	list-style: none;
+}
+
+.plan-box ul li {
+	padding: 5px 0;
+}
+.plan-sign {
+	position: relative;
+}
+.plan-sign a {
+	position: absolute;
+	background-color: #1F61C1;
+	height: 2rem;
+	width: 100px;
+	color: #fff;
+	margin: 0 auto;
+	
+	transform: translate(-50%, -50%);
+    left: 50%;
+	border-radius: 20px;
+	text-decoration: none;
+    word-break: normal;
+	
 }
 
 /*******FORM STYLES*******/
