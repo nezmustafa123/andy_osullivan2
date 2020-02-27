@@ -604,6 +604,7 @@ cite {
 	padding: 20px;
 	border-bottom: 1px solid #e8e8e8;
 	display: relative;
+	max-height: 115rem;
 }
 
 .plan-price {
@@ -611,9 +612,17 @@ cite {
 	margin-bottom: 10px;
 	font-weight: 100;
 	color: #1F61C1;
+	text-align: center;
+	
+}
+
+.plan-title h3 {
+  margin: 0 auto;
+	text-align: center;
 }
 .plan-box ul {
 	list-style: none;
+	
 }
 
 .plan-box ul li {
@@ -629,12 +638,12 @@ cite {
 	width: 100px;
 	color: #fff;
 	margin: 0 auto;
-	
-	transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     left: 50%;
 	border-radius: 20px;
 	text-decoration: none;
     word-break: normal;
+	text-align: center;
 	
 }
 
