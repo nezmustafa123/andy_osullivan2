@@ -591,11 +591,16 @@ cite {
 	background-color: #f4f4f4;
 }
 
+
+.section-plans__heading  {
+	margin-top: 1em;
+}
 .plan-box {
 	background-color: #fff;
 	border-radius: 5px;
 	width: 90%;
 	margin-left: 5%;
+	box-shadow: 0 2px 2px #c1b4b4;
 	
 }
 
@@ -629,13 +634,19 @@ cite {
 	padding: 5px 0;
 }
 .plan-sign {
+	
 	position: relative;
+	padding: 6rem;
+    margin: 0 auto;
+    transform: translate(-50%, 0%);
+    left: 50%;
+	border: 0;
 }
 .plan-sign a {
 	position: absolute;
 	background-color: #1F61C1;
-	height: 2rem;
-	width: 100px;
+	height: 1.6rem;
+	width: 9rem;
 	color: #fff;
 	margin: 0 auto;
     transform: translate(-50%, -50%);
@@ -644,7 +655,15 @@ cite {
 	text-decoration: none;
     word-break: normal;
 	text-align: center;
+
 	
+}
+
+
+.plan-sign a span {
+	  transform: translatex(-50%, -50%);
+	  top: 100%;
+	  position: inline-block;
 }
 
 /*******FORM STYLES*******/
