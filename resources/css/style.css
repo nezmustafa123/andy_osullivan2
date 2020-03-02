@@ -906,8 +906,46 @@ a.send-btn:hover {
 }
 
 
+/*****FOOTER*****/
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+}
+
+
+.footer-nav {
+	list-style: none;
+/*	float: left;*/
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	
+}
 
 
 
+.footer-nav li {
+	color: #fff;
+	display: block;
+	width: 100%;
+}
+.foot-nav li a {
+	text-decoration: none;
+	color: #fff;
+}
+.social-links {
+	list-style: none; 
+/*	float: right;*/
+	display: block;
+}
+
+.footer-nav li,
+.social-links li {
+	display: inline-block;
+	margin-right: 20px;
+}
 
 
+ul 
