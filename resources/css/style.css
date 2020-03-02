@@ -674,7 +674,7 @@ cite {
   position: relative;
 /*  font-family: 'Open Sans', sans-serif;*/
   font-weight: 300;
-  background: #FDFDFD;
+  background: #fff;
 }
 
 .form-container {
@@ -910,30 +910,29 @@ a.send-btn:hover {
 
 
 footer {
-	background-color: #333;
-	color: #fff;
+	background-color: #f4f4f4;
+	color: #000000;
 }
 
 
 .footer-nav {
 	list-style: none;
 /*	float: left;*/
-	display: block;
-	color: #fff;
+/*	display: block;*/
+/*	color: #000000;*/
 	text-decoration: none;
 	
 }
 
 
-
 .footer-nav li {
-	color: #fff;
+/*	color: #000000;*/
 	display: block;
 	width: 100%;
 }
-.foot-nav li a {
+.footer-nav li a {
 	text-decoration: none;
-	color: #fff;
+/*	color: #000000;*/
 }
 .social-links {
 	list-style: none; 
@@ -941,11 +940,48 @@ footer {
 	display: block;
 }
 
-.footer-nav li,
+/*.footer-nav li,*/
 .social-links li {
 	display: inline-block;
 	margin-right: 20px;
+   text-decoration: none;
 }
 
 
-ul 
+
+.social-links li:last-child {
+	margin: 0;
+}
+
+
+
+
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+	text-decoration: none;
+	color: #000000;
+	transition: color 0.3s;
+}
+
+
+.footer-title,
+ul.address, 
+ul.details {
+	font-size: 0.85rem;
+	list-style: none;
+	color: #000000;
+}
+
+.footer-nav li a:hover, 
+.footer-nav li a:active,
+.social-links li a:hover {
+	color: #1F61C1;
+}
+
+
+.copyright {
+	text-align: center; 
+}
