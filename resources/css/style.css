@@ -912,6 +912,8 @@ a.send-btn:hover {
 footer {
 	background-color: #f4f4f4;
 	color: #000000;
+	font-size:90%;
+	font-weight: 100;
 }
 
 
@@ -929,10 +931,12 @@ footer {
 /*	color: #000000;*/
 	display: block;
 	width: 100%;
+	margin-top: 1%;
 }
 .footer-nav li a {
 	text-decoration: none;
 /*	color: #000000;*/
+	
 }
 .social-links {
 	list-style: none; 
@@ -945,6 +949,11 @@ footer {
 	display: inline-block;
 	margin-right: 20px;
    text-decoration: none;
+	
+}
+
+.fab {
+ font-size: 140%;
 }
 
 
@@ -964,15 +973,21 @@ footer {
 	text-decoration: none;
 	color: #000000;
 	transition: color 0.3s;
+
 }
 
 
 .footer-title,
 ul.address, 
 ul.details {
-	font-size: 0.85rem;
+	font-size: 1.1rem;
 	list-style: none;
 	color: #000000;
+}
+
+ul.address, 
+ul.details {
+	font-size: 0.7rem;
 }
 
 .footer-nav li a:hover, 
