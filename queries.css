@@ -30,6 +30,18 @@
 		width: 80%;
 		margin-left: 10%:
 	}
+	
+	.info-box { 
+		margin-top: 0.1rem;
+	}
+	.info-box:last-child {
+		margin-bottom: 5rem;
+	}
+	
+	.andy_cam:last-of-type {
+		
+}
+	
 }
 
 /*small phones to small tabelts: from 481px to 767px*/
