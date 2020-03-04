@@ -39,14 +39,54 @@
 	}
 	
 	.andy_cam:last-of-type {
+		width: 100%:
 		
 }
 	
+	.andy_vid {
+		width: 50%;
+		margin-bottom: 2rem;
+	}
+	
+	.plan-box__container {
+		font-size: 0.8rem;
+		display: block;
+	}
+	.plan-box {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	
+	a.button {
+		width: 80%;
+	}
+	.plan-sign a span {
+	  transform: translate(-50%, -50%);
+	  top: 50%;
+	  display: inline-block;
+	  position: absolute;
+	 
+}
+	
+	.form-section {
+		width: 100%;
+
+	}
+	
+	.form__heading,
+	.form__label,
+	.form__text {
+		font-size: 0.6rem;
+	}
 }
 
 /*small phones to small tabelts: from 481px to 767px*/
 @media only screen and (max-width: 767px) {
-	
+	.plan-box__container {
+		font-size: 0.7rem;
+		display: block;
+	}
 }
 
 

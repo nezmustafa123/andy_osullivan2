@@ -377,6 +377,10 @@ img.andy_cam2 {
 	float: right;
 }
 
+
+.andy_vid {
+	
+}
 .info-box {
 	margin-top: .3rem;
 }
@@ -593,7 +597,7 @@ cite {
 .plan-box {
 	background-color: #fff;
 	border-radius: 5px;
-	width: 90%;
+	width: 100%;
 	margin-left: 5%;
 	box-shadow: 0 2px 2px #c1b4b4;
 	
