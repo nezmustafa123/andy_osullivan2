@@ -13,6 +13,10 @@
 		padding: 0 2%;
 		
 	}
+	
+	.form__heading {
+		font-size: 1em;
+	}
 
 }
 
@@ -99,6 +103,64 @@
      .btn.btn-arrow {
 		width: 10%;
 	}
+	
+	div.col {
+		width: 100%;
+		margin: 0% 0 4% 0%;
+	}
+	a.button {
+		width: 50%;
+	}
+	
+	.main-nav {
+		display: none;
+	}
+	.info-box {
+		margin 0.1rem 0;
+	}
+	
+	h1 {font-size: 180%;}
+	h2 {font-size: 180%;}
+	.long-copy {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	.info-box { 
+		margin-top: 0.1rem;
+	}
+	.info-box:last-child {
+		margin-bottom: 5rem;
+	}
+	
+	.andy_cam:last-of-type {
+		width: 100%:
+		
+}
+	
+	.andy_vid {
+		width: 50%;
+		
+	}
+	
+	.plan-box__container {
+		font-size: 0.8rem;
+		display: block;
+	}
+	.plan-box {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	.andy_cam {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.info-box-heading {
+		font-size: 1.7rem;
+	}
+	
 }
 
 
@@ -106,7 +168,13 @@
 
 
 
+
 /*small phones 0 to 400px*/
-@media only screen and (max-width: 400px) {
-	
+@media only screen and (max-width: 480px) {
+	section {
+		padding: 25px 0;
+	}
+	.contact-form {
+		width: 100%;
+	}
 }
