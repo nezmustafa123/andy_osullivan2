@@ -1,0 +1,19 @@
+{
+  "name": "andy_osullivan2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nezmustafa123/andy_osullivan2.git"
+  },
+  "author": "Nez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nezmustafa123/andy_osullivan2/issues"
+  },
+  "homepage": "https://github.com/nezmustafa123/andy_osullivan2#readme"
+}
