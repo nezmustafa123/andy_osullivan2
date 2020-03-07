@@ -222,7 +222,7 @@ header {
 }
 
 
-.logo,
+.logo
 {
 	height: 40px;
 	width: auto;
@@ -232,6 +232,8 @@ header {
 	left: 2%;
 }
 
+
+/*
 .logo2 {
 	height: 30px;
 	width: auto;
@@ -239,9 +241,10 @@ header {
 	margin-top: .5em ;
 	position: absolute;
 	left: 2%;
-/*	don't display in normal nav */
+	
 	display: none;
-}
+} 
+*/
 /*MAIN NAV */
 nav {
 	height: 8%;
