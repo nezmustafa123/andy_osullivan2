@@ -222,15 +222,30 @@ header {
 }
 
 
-.logo {
+.logo,
+{
 	height: 40px;
 	width: auto;
 	float: left;
-	margin-top: .5em;
+	margin-top: .8em;
 	position: absolute;
 	left: 2%;
 }
 
+.logo2 {
+	height: 30px;
+	width: auto;
+	float: left;
+	margin-top: .5em ;
+	position: absolute;
+	left: 2%;
+/*	don't display in normal nav */
+	display: none;
+}
+/*MAIN NAV */
+nav {
+	height: 8%;
+}
 .main-nav {
 	margin-top: .8em;
 	float: right;
@@ -289,6 +304,53 @@ ul.main-nav li:nth-child(2) li:hover > ul.inner {
 
 */
 
+
+/*STICKY NAV*/
+
+
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 2px 2px #e8e8e8;
+}
+
+
+
+
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+/*	apply only when class is inside the sticky class*/
+	padding: 8px 0;
+	color: #555;
+}
+.sticky .main-nav {
+	margin-top: .8em;
+
+	
+}
+/*
+
+.sticky .logo {
+	display: none;
+}
+*/
+
+.sticky .logo {
+	display: none;
+/*	hide normal logo in sticky */
+}
+
+.sticky .logo2 {
+	display: block;
+/*display it in the sticky state*/
+}
+
 /****FEATURES****/
 
 
@@ -304,6 +366,8 @@ section.section-features .long-copy {
 h2.section-info__heading {
 	margin-top: 2rem;
 }
+
+
 
 
 
