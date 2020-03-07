@@ -320,6 +320,7 @@ ul.main-nav li:nth-child(2) li:hover > ul.inner {
 	width: 100%;
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0 2px 2px #e8e8e8;
+	z-index: 9999;
 }
 
 
