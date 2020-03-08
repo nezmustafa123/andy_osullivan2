@@ -29,7 +29,12 @@ $('.js--section-features').waypoint(function(direction){
 
 	
 	
-	
+//scroll
+
+$('.js--scoll-to-features').click(function() {
+	$('html, body').animate({
+		scrollTop: $('.js--section-features').offset().top}, 1000);
+});
 
 
 
