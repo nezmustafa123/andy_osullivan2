@@ -17,7 +17,7 @@ $('.client-carousel').owlCarousel({
 });
 
 $('.js--section-features').waypoint(function(direction){
-		if (direction == "down") {
+		if (direction === "down") {
 			$('nav').addClass('sticky');
 			
 		} else {
@@ -31,10 +31,27 @@ $('.js--section-features').waypoint(function(direction){
 	
 //scroll
 
-$('.js--scoll-to-features').click(function() {
+$('.js--scroll-to-features').click(function() {
 	$('html, body').animate({
-		scrollTop: $('.js--section-features').offset().top}, 1000);
+		scrollTop: $('.section-plans').offset().top}, 1000);
 });
+
+
+//navigation
+
+
+$(function(){
+	$('').click(function(){
+		if(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')&& location.hostname == this.hostname) {
+			
+		}
+	})
+	
+	
+})
+
+
+
 
 
 
