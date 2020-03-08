@@ -1091,3 +1091,16 @@ ul.details {
 .copyright {
 	text-align: center; 
 }
+
+
+
+/******ANIMATIONS*******/
+
+
+.js--wp-1 {
+	opacity: 1;
+}
+/*animated with the js waypoint one class*/
+.js--wp-1.animated {
+	opacity: 1;
+}

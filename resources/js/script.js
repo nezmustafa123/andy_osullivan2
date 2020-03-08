@@ -31,25 +31,38 @@ $('.js--section-features').waypoint(function(direction){
 	
 //scroll
 
-$('.js--scroll-to-features').click(function() {
-	$('html, body').animate({
-		scrollTop: $('.section-plans').offset().top}, 1000);
-});
+//$('.js--scroll-to-features').click(function() {
+//	$('html, body').animate({
+//		scrollTop: $('.section-plans').offset().top}, 1000);
+//});
 
 
 //navigation
 
 
-$(function(){
-	$('').click(function(){
-		if(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')&& location.hostname == this.hostname) {
-			
-		}
-	})
-	
-	
-})
+//$(function(){
+//	$('').click(function(){
+//		if(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')&& location.hostname == this.hostname) {
+//			
+//		}
+//	})
+//	
+//	
+//})
 
+
+
+//animation on scroll
+
+
+
+$('.js--wp-1').waypoint(function(direction) {
+	//dont put direction because it will only happen once
+	
+	$('.js--wp-1').addClass('animate fade');
+}, {
+	offset: '50%';
+});
 
 
 
