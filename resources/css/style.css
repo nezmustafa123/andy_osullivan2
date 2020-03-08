@@ -20,6 +20,12 @@ html, body
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
+
+
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 /******REUSABLE COMPONENTS******/
@@ -606,6 +612,17 @@ blockquote:before {
 	left: -3px;
 }
 
+
+blockquote:after {
+  content: '\201D';
+  font-size: 400%;
+  display: block;
+  position: absolute;
+/*  content: close-quote;*/
+  right: 6px;
+	
+	
+}
 
 cite {
 	font-size: 90%;
