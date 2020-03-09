@@ -295,9 +295,7 @@ ul li ul:hover li:hover{
 	
 }
 
-ul li:hover > ul.dropdown {
-/*  right: 0;*/
-}
+
 
 
 ul li ul.dropdown li {
