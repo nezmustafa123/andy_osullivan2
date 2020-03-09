@@ -56,15 +56,15 @@ $('.js--section-features').waypoint(function(direction){
 
 
 
-$('.js--wp-1').waypoint(function(direction) {
-	//dont put direction because it will only happen once
-	
-	$('.js--wp-1').addClass('animate fade');
-}, {
-	offset: '50%';
-});
-
-
+//$('.js--wp-1').waypoint(function(direction) {
+//	//dont put direction because it will only happen once
+//	
+//	$('.js--wp-1').addClass('animated fade');
+//}, {
+//	offset: '50%';
+//});
+//
+//
 
 
 

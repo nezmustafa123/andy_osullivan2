@@ -11,8 +11,10 @@
   <link rel="stylesheet" href="resources/css/owl.carousel.css">
   <link rel="stylesheet" href="resources/css/owl.theme.default.css">
   <link rel="stylesheet" href="vendors/css/animate.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  
+<!--  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
   <link href="https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto&display=swap" rel="stylesheet">
   
   
@@ -31,10 +33,12 @@
 		<ul class="main-nav">
 			<li><a href="#hero">HOME</a></li>
 			<li><a href="#features">ABOUT</a></li>
-			<li><a href="#plans">PUBLIC SPEAKING COURSES</a>
-			<ul class="inner">
-			<li><a href=""></a></li>
-			<li><a href=""></a></li>
+			<li id="inner"><a href="#plans">PUBLIC SPEAKING COURSES</a>
+			<ul class="dropdown">
+			<li><a href="">London Public Speaking Club</a></li>
+			<li><a href="">Online Course</a></li>
+			<li><a href="">Fear of Public Speaking Workshop</a></li>
+			
 			</ul>
 			</li>
 			<li><a href="#contact">CONTACT</a></li>
@@ -63,7 +67,7 @@
 	
 	<div class="row js--wp-1">
 		
-		<div class="col span-1-of-3 feature__box">
+		<div class="col span-1-of-3 feature__box" data-aos="fade-left">
 			<h3 class="features__box__heading"><ion-icon name="checkmark-outline"></ion-icon>Learn presentation skills</h3>
 			<h3 class="features__box__heading">Speak with confidence</h3>
 			<p class="features__box__text">
@@ -72,7 +76,7 @@
 			
 		</div>
 		
-		<div class="col span-1-of-3 feature__box">
+		<div class="col span-1-of-3 feature__box" data-aos="fade-left">
 			<h3 class="features__box__heading"><ion-icon name="checkmark-outline"></ion-icon>Learn pitching success</h3>
 			<h3 class="features__box__heading">Speak with certainty</h3>
 			<p class="features__box__text">
@@ -81,7 +85,7 @@
 			
 		</div>
 		
-		<div class="col span-1-of-3 feature__box">
+		<div class="col span-1-of-3 feature__box" data-aos="fade-left">
 			<h3 class="features__box__heading"><ion-icon name="checkmark-outline"></ion-icon>Learn public speaking</h3>
 			<h3 class="features__box__heading">Speak with conviction</h3>
 			<p class="features__box__text">
@@ -631,6 +635,8 @@
  <script src="resources/js/owl.carousel.js"></script>
  <script src="resources/js/html5shiv.js"></script>
 <script src="resources/js/jquery.waypoints.min.js"></script>
+<script src="vendors/js/aos.js"></script>
+
  
 <!--
  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
@@ -641,6 +647,11 @@
 <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<script>
+  AOS.init();
+</script>
  <script src="resources/js/script.js"></script>
  
 </body>

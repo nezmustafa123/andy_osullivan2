@@ -96,6 +96,7 @@ h4.info-
 	color: #fff;
 	font-size-adjust: auto;
 	max-height: 20rem;
+	animation-duration: 2s;
 /*	max-width: inherit;*/
 }
 
@@ -282,19 +283,53 @@ nav {
 	
 }
 
+
+
+ul li:hover > ul,
+ul li ul:hover li:hover{
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  
+	
+	
+}
+
+ul li:hover > ul.dropdown {
+/*  right: 0;*/
+}
+
+
+ul li ul.dropdown li {
+  clear: both;
+  width: 100%;
+}
+
+
+
+
 .main-nav li a:hover, 
 .main-nav li a:active {
 	border-bottom: 2px solid #1F61C1;
 }
 
 
-.main-nav ul {
+
+.main-nav li ul {
+	visibility: hidden;
+	opacity: 0;
 	display: none;
+    position: absolute;
+	transition: all 3s ease;
+	margin-top: 1rem;
+    display: none;
+/*	right: 0;*/
 }
 
-ul.main-nav li:nth-child(2) li:hover > ul.inner {
-	display: block;
+.main-nav li ul.dropdown li {
+	margin: 0.3em;
 }
+
 
 
 /*
@@ -1104,3 +1139,32 @@ ul.details {
 .js--wp-1.animated {
 	opacity: 1;
 }
+
+/*
+@keyframes fadeInRight {
+0% { opacity: 0;
+	transform: translateX(400px);
+}
+	
+	50% {
+		opacity: 0.5;
+		transform: translateX(200px)
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+*/
+	
+
+
+
+}
+
+.fadeInRigh {
+		animation-name: fadeInRight;
+	}
+
+
+
