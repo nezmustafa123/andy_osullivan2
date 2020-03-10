@@ -70,7 +70,7 @@ $('.js--section-features').waypoint(function(direction){
 
 
 const iconMenu = document.querySelector('.menu_toggler');
-const menu = document.querySelector('.menu');
+const menu = document.querySelector('.main-navt');
 
 
 
@@ -78,6 +78,7 @@ const menu = document.querySelector('.menu');
 iconMenu.addEventListener('click', function() {
     this.classList.toggle('active');
     menu.classList.toggle('active');
+	
 })
 
 

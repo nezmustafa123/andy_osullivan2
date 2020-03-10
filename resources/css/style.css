@@ -285,7 +285,7 @@ nav {
 
 
 
-ul li:hover > ul,
+ul li:hover > ul.dropdown,
 ul li ul:hover li:hover{
   visibility: visible;
   opacity: 1;
@@ -296,14 +296,10 @@ ul li ul:hover li:hover{
 }
 
 
-
-
 ul li ul.dropdown li {
   clear: both;
   width: 100%;
 }
-
-
 
 
 .main-nav li a:hover, 
@@ -311,14 +307,12 @@ ul li ul.dropdown li {
 	border-bottom: 2px solid #1F61C1;
 }
 
-
-
 .main-nav li ul {
 	visibility: hidden;
 	opacity: 0;
 	display: none;
     position: absolute;
-	transition: all 3s ease;
+	transition: all 1s ease;
 	margin-top: 1rem;
     display: none;
 /*	right: 0;*/
@@ -327,12 +321,6 @@ ul li ul.dropdown li {
 .main-nav li ul.dropdown li {
 	margin: 0.3em;
 }
-
-
-
-
-
-
 
 
 
@@ -355,8 +343,6 @@ ul li ul.dropdown li {
 
 
 /*STICKY NAV*/
-
-
 
 
 .sticky {

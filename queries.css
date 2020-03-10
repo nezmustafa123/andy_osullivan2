@@ -115,6 +115,7 @@
 	.main-nav {
 		display: none;
 	}
+	
 	.info-box {
 		margin 0.1rem 0;
 	}
@@ -215,11 +216,23 @@ span::after {
      transform: rotate(225deg);
 }
 
+	
+	
+.main-nav {
+		display: none;
+	}
+	
 .main-nav {
 	  float: left;
 	    width: 100%;
-		display: block;
+/*		display: block;*/
 	font-size: 1.8em;
+	
+	}
+	
+	.main-nav.active {
+		transition: 2s;
+		display: block;
 	}
 	
 	.main-nav li {
@@ -229,7 +242,52 @@ span::after {
 	}
 	
 	.main-nav li a:link,
+	.main-nav li a:visited {
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%:
+	}
 	
+	.main-nav li ul.dropdown {
+		display: block;
+		margin: 0 auto;
+/*		position: absolute;*/
+/*		left: 50;*/
+		width: 100%;
+		text-align: center;
+	}
+
+
+
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+/*	apply only when class is inside the sticky class*/
+	padding: 10px 0;
+	color: #555;
+}
+.sticky .main-nav {
+	margin-top: .6em;
+
+	
+}
+/*
+
+.sticky .logo {
+	display: none;
+}
+*/
+
+.sticky .logo {
+	display: none;
+/*	hide normal logo in sticky */
+}
+
+.sticky .logo2 {
+	display: block;
+/*display it in the sticky state*/
+}
 
 	
 }
