@@ -1028,9 +1028,13 @@ a.send-btn:hover {
 
 footer {
 	background-color: #f4f4f4;
-	color: #000000;
-	font-size:90%;
+	color: #ff2700;
+	font-size: 90%;
 	font-weight: 100;
+}
+
+.section-footer, section-footer {
+	color: #ff2700 !important;
 }
 
 
@@ -1038,7 +1042,7 @@ footer {
 	list-style: none;
 /*	float: left;*/
 /*	display: block;*/
-/*	color: #000000;*/
+	color: #ff2700;
 	text-decoration: none;
 	
 }
