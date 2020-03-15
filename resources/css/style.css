@@ -1029,7 +1029,7 @@ a.send-btn:hover {
 
 
 footer {
-	background-color: #f4f4f4;
+	background-color: #ffffff;
 	color: #ff2700;
 	font-size: 90%;
 	font-weight: 100;
@@ -1079,6 +1079,7 @@ footer {
 
 .fab {
  font-size: 140%;
+  margin-right: 0.2rem;
 }
 
 
@@ -1096,7 +1097,7 @@ footer {
 .social-links li a:link,
 .social-links li a:visited {
 	text-decoration: none;
-	color: #000000;
+	color: #ff2700;
 	transition: color 0.3s;
 
 }
@@ -1107,7 +1108,7 @@ ul.address,
 ul.details {
 	font-size: 1.1rem;
 	list-style: none;
-	color: #000000;
+	color: #ff2700;
 }
 
 ul.address, 
