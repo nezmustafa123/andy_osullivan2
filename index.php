@@ -547,15 +547,20 @@
 			
 			<div class="row">
 			<?php
-				<div class="form-messages success">
+				if($_GET['success'] == 1) {
+					echo "<div class=\"form-messages success\">
 				Thank you your message has been sent!
-				</div>
+				</div>"
+				}
 				
-<!--
-				<div class="form-messages error">
-				Oops! Something went wrong try again.
-				</div>
--->
+					
+				if($_GET['success'] == -1) {
+						echo "<div class=\"form-messages error\">
+				Oops! something went wrong try again
+				</div>"
+				}
+				
+
 			?>
 				</div>
 

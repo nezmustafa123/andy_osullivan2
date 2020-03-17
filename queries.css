@@ -36,7 +36,7 @@
 	}
 	.long-copy {
 		width: 80%;
-		margin-left: 10%:
+		margin-left: 10%;
 	}
 	
 	.info-box { 
@@ -47,7 +47,7 @@
 	}
 	
 	.andy_cam:last-of-type {
-		width: 100%:
+		width: 100%;
 		
 }
 	
@@ -88,7 +88,7 @@
 		font-size: 0.6rem;
 	}
 	.section-footer {
-		  position: fixed;
+		position: relative;
 		 left: 0;
          bottom: 0;
 		width: 100%;
@@ -130,7 +130,7 @@
 	}
 	
 	.info-box {
-		margin 0.1rem 0;
+		margin: 0.1rem 0;
 	}
 	
 	h1 {font-size: 180%;}
@@ -148,7 +148,7 @@
 	}
 	
 	.andy_cam:last-of-type {
-		width: 100%:
+		width: 100%;
 		
 }
 	
@@ -259,7 +259,7 @@ span::after {
 		display: block;
 		border: 0;
 		padding: 10px 0;
-		font-size: 100%:
+		font-size: 100%;
 	}
 	
 	.main-nav li ul.dropdown {

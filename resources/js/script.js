@@ -1,11 +1,13 @@
+$(document).ready(function(){
+
 $('.client-carousel').owlCarousel({
-	loop:true,
+	loop: true,
 	margin: 10,
 	autoplay: true,
-	autoplaySpeed: 1000, 
+	autoplaySpeed: 1000,
 	responsive: {
 		0: {
-			items: 1 
+			items: 1
 		},
 		600: {
 			items: 3
@@ -16,19 +18,19 @@ $('.client-carousel').owlCarousel({
 	}
 });
 
-$('.js--section-features').waypoint(function(direction){
-		if (direction === "down") {
-			$('nav').addClass('sticky');
-			
-		} else {
-			$('nav').removeClass('sticky');
-		}
-		}, {
-			offset: '15%;'
-	});
+$('.js--section-features').waypoint(function (direction) {
+	if (direction === "down") {
+		$('nav').addClass('sticky');
 
-	
-	
+	} else {
+		$('nav').removeClass('sticky');
+	}
+}, {
+	offset: '15%;'
+});
+
+
+
 //scroll
 
 //$('.js--scroll-to-features').click(function() {
@@ -69,26 +71,20 @@ $('.js--section-features').waypoint(function(direction){
 
 
 
-const iconMenu = document.querySelector('.menu_toggler');
-const menu = document.querySelector('.main-nav');
+var iconMenu = document.querySelector('.menu_toggler');
+var menu = document.querySelector('.main-nav');
 
 
 
 
-iconMenu.addEventListener('click', function() {
-    this.classList.toggle('active');
-//    menu.classList.toggle('active');
-//	menu.slideToggle(200);
-	
+iconMenu.addEventListener('click', function () {
+	this.classList.toggle('active');
+	//    menu.classList.toggle('active');
+	//	menu.slideToggle(200);
+
 	var nav = $('.js--main-nav');
-	
+
 	nav.slideToggle(200);
-	
+
 });
-
-
-
-
-
-
-
+});
