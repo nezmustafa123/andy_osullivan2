@@ -641,11 +641,7 @@
 							<li>Email: andy@andyosullivan.com</li>
 						</ul>
 					</div>
-					<!--
-	<div class="row">
-		<p class="copyright">Copyright &copy; 2020 Andy O'Sullivan.</p>
-	</div>
--->
+
 				</div>
 				<div class="row">
 					<p class="copyright">Copyright &copy; 2020 Andy O'Sullivan.</p>
@@ -671,12 +667,7 @@
 			<script src="https://cdn.datedropper.com/get/{{LICENSE}}"></script>
 			<script src="datedropper.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
-          
-
-
-
-
-			<!--
+          	<!--
  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-1be71b65-34f5-4c1c-9f9c-5da4962ed8ad"></div>
 -->

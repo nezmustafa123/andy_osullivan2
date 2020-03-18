@@ -1178,12 +1178,9 @@ ul.details {
 		opacity: 1;
 		transform: translateX(0);
 	}
+}
 */
 	
-
-
-
-}
 
 .fadeInRigh {
 		animation-name: fadeInRight;
