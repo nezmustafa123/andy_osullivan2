@@ -64,10 +64,7 @@
 
 				</div>
 			</div>
-
-
-
-		</nav>
+        </nav>
 		<div class="wrapper">
 			<div class="hero-text-box">
 				<h1 class="hero-text-box__heading">Andy O' Sullivan</h1>
@@ -373,16 +370,7 @@
 
 	</section>
 
-
-
-
-
-
-
-
-
-
-	<section class="section-testimonials">
+<section class="section-testimonials">
 		<div class="row">
 			<h2 class="package-header">People Are Talking About The Success They're Achieving</h2>
 			<h3 class="package-header">See Andy's testimonials</h3>
@@ -419,10 +407,7 @@
 
 		<h2 class="section-info__heading">Andy's clients include some of the biggest companies</h2>
 
-
-
-
-		<div class="client-carousel section-padding owl-carousel">
+       <div class="client-carousel section-padding owl-carousel">
 			<div class="img-area">
 				<img src="resources/img/vodafone2.jpg" alt="">
 			</div>
@@ -449,9 +434,7 @@
 <!--		<iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=lsekdoq5nrhjlb3fnm1lphf6hg%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="500" height="500" frameborder="0" scrolling="no"></iframe>-->
 	
 <input type="date" id="datepicker">
-
-
-	</section>
+   </section>
 
 
 
@@ -546,17 +529,24 @@
 			<form id="userform" class="form-container" method="post" action="mailer.php">
 			
 			<div class="row">
-			<?php
-				<div class="form-messages success">
-				Thank you your message has been sent!
-				</div>
-				
 <!--
-				<div class="form-messages error">
-				Oops! Something went wrong try again.
-				</div>
--->
+			<?php
+				if($_GET['success'] == 1) {
+					echo "<div class=\"form-messages success\">
+				Thank you your message has been sent!
+				</div>"
+				}
+				
+					
+				if($_GET['success'] == -1) {
+						echo "<div class=\"form-messages error\">
+				Oops! something went wrong try again
+				</div>"
+				}
+				
+
 			?>
+-->
 				</div>
 
 				<div class="inner group">
@@ -595,7 +585,7 @@
 			<div class="form-menu"></div>
 		</div>
 		<section>
-			</div>
+		
 			<footer class="section-footer">
 				<div class="row">
 					<div class="col span-1-of-3">
@@ -636,11 +626,7 @@
 							<li>Email: andy@andyosullivan.com</li>
 						</ul>
 					</div>
-					<!--
-	<div class="row">
-		<p class="copyright">Copyright &copy; 2020 Andy O'Sullivan.</p>
-	</div>
--->
+
 				</div>
 				<div class="row">
 					<p class="copyright">Copyright &copy; 2020 Andy O'Sullivan.</p>
@@ -648,16 +634,9 @@
 
 
 			</footer>
+            </div>
 
-
-
-
-
-
-
-
-
-			<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+            <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 			<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 			<script src="resources/js/owl.carousel.js"></script>
 			<script src="resources/js/html5shiv.js"></script>
@@ -666,12 +645,7 @@
 			<script src="https://cdn.datedropper.com/get/{{LICENSE}}"></script>
 			<script src="datedropper.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
-          
-
-
-
-
-			<!--
+          	<!--
  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-1be71b65-34f5-4c1c-9f9c-5da4962ed8ad"></div>
 -->
@@ -687,7 +661,7 @@
 				AOS.init();
 			</script>
 			<script>
-				$('input').dateDropper();
+//				$('input').dateDropper();
 		   </script>
 			
 			
@@ -699,13 +673,10 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-160700208-1');
-	
 </script>
 <script src="pikaday.js"></script>
 <script>
     var picker = new Pikaday({ field: document.getElementById('datepicker') });
 </script>
-
 </body>
-
 </html>

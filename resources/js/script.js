@@ -77,14 +77,17 @@ var menu = document.querySelector('.main-nav');
 
 
 
-iconMenu.addEventListener('click', function () {
-	this.classList.toggle('active');
-	//    menu.classList.toggle('active');
-	//	menu.slideToggle(200);
+iconMenu.addEventListener('click', function() {
+//	this.classList.toggle('active');
+	console.log('clicked');
+	    menu.classList.toggle('active');
+		menu.slideToggle(200);
 
 	var nav = $('.js--main-nav');
 
-	nav.slideToggle(200);
+//	nav.slideToggle(200);
+	
+	
 
 });
 });

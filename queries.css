@@ -244,8 +244,9 @@ span::after {
 	}
 	
 	.main-nav.active {
-		transition: 2s;
 		display: block;
+		transition: 2s;
+		
 	}
 	
 	.main-nav li {
