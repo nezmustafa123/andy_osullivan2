@@ -1,23 +1,21 @@
-
-
 /*Big tablet to 1200px bigger than the 1140px  row width*/
 
 @media only screen and (max-width: 1200px) {
-   .hero-text-box {
-    width: 100%;
-	padding: 0% 2%;
-	
-}
-	
+	.hero-text-box {
+		width: 100%;
+		padding: 0% 2%;
+
+	}
+
 	.row {
 		padding: 0 2%;
-		
+
 	}
-	
+
 	.form__heading {
 		font-size: 1em;
 	}
-	
+
 	.section-footer {
 		height: 13rem;
 	}
@@ -38,24 +36,24 @@
 		width: 80%;
 		margin-left: 10%;
 	}
-	
-	.info-box { 
+
+	.info-box {
 		margin-top: 0.1rem;
 	}
 	.info-box:last-child {
 		margin-bottom: 5rem;
 	}
-	
+
 	.andy_cam:last-of-type {
 		width: 100%;
-		
-}
-	
+
+	}
+
 	.andy_vid {
 		width: 50%;
 		margin-bottom: 2rem;
 	}
-	
+
 	.plan-box__container {
 		font-size: 0.8rem;
 		display: block;
@@ -64,24 +62,24 @@
 		width: 100%;
 		margin-left: 0;
 	}
-	
-	
+
+
 	a.button {
 		width: 80%;
 	}
 	.plan-sign a span {
-	  transform: translate(-50%, -50%);
-	  top: 50%;
-	  display: inline-block;
-	  position: absolute;
-	 
-}
-	
+		transform: translate(-50%, -50%);
+		top: 50%;
+		display: inline-block;
+		position: absolute;
+
+	}
+
 	.form-section {
 		width: 100%;
 
 	}
-	
+
 	.form__heading,
 	.form__label,
 	.form__text {
@@ -89,18 +87,21 @@
 	}
 	.section-footer {
 		position: relative;
-		 left: 0;
-         bottom: 0;
+		left: 0;
+		bottom: 0;
 		width: 100%;
 	}
 	.wrap {
-	   min-height: calc(100vh - auto);
+		min-height: calc(100vh - auto);
 	}
 }
 
 /*small phones to small tabelts: from 481px to 767px*/
+
 @media only screen and (max-width: 767px) {
-	body { font-size: 0.8rem;}
+	body {
+		font-size: 0.8rem;
+	}
 	.plan-box__container {
 		font-size: 0.7rem;
 		display: block;
@@ -112,11 +113,11 @@
 	.hero-text-box {
 		padding: 0 4%;
 	}
-	
-     .btn.btn-arrow {
+
+	.btn.btn-arrow {
 		width: 10%;
 	}
-	
+
 	div.col {
 		width: 100%;
 		margin: 0% 0 4% 0%;
@@ -124,39 +125,43 @@
 	a.button {
 		width: 50%;
 	}
-	
+
 	.main-nav {
 		display: none;
 	}
-	
+
 	.info-box {
 		margin: 0.1rem 0;
 	}
-	
-	h1 {font-size: 180%;}
-	h2 {font-size: 180%;}
+
+	h1 {
+		font-size: 180%;
+	}
+	h2 {
+		font-size: 180%;
+	}
 	.long-copy {
 		width: 100%;
 		margin-left: 0;
 	}
-	
-	.info-box { 
+
+	.info-box {
 		margin-top: 0.1rem;
 	}
 	.info-box:last-child {
 		margin-bottom: 5rem;
 	}
-	
+
 	.andy_cam:last-of-type {
 		width: 100%;
-		
-}
-	
+
+	}
+
 	.andy_vid {
 		width: 50%;
-		
+
 	}
-	
+
 	.plan-box__container {
 		font-size: 0.8rem;
 		display: block;
@@ -165,96 +170,99 @@
 		width: 100%;
 		margin-left: 0;
 	}
-	
+
 	.andy_cam {
 		width: 100%;
 		margin: 0 auto;
 	}
-	
+
 	.info-box-heading {
 		font-size: 1.7rem;
 	}
-	
-.menu_toggler {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 9999;
-  height: 28px;
-  width: 28px;
-  outline: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-/*  background: #fff;*/
-}
 
-span, 
-span::after,
-span::before {
-  position: absolute;
-  content: '';
-  width: 28px;
-  height: 2.5px;
-  background: #FAFAFA;
-  border-radius: 20px;
-  transition: 600ms  cubic-bezier(0.77,0,0.175, 1);
-/*  cubic-bezier(0.77,0,0.175, 1)*/
-}
+	.menu_toggler {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		z-index: 9999;
+		height: 28px;
+		width: 28px;
+		outline: none;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		/*  background: #fff;*/
+	}
 
-span::before {
-  top: -8px;
-}
+	span,
+	span::after,
+	span::before {
+		position: absolute;
+		content: '';
+		width: 28px;
+		height: 2.5px;
+		background: #FAFAFA;
+		border-radius: 20px;
+		transition: 600ms cubic-bezier(0.77, 0, 0.175, 1);
+		/*  cubic-bezier(0.77,0,0.175, 1)*/
+	}
 
-span::after {
-  top: 8px;
-}
+	span::before {
+		top: -8px;
+	}
 
-.menu_toggler.active > span {
-    background: transparent;
-}
+	span::after {
+		top: 8px;
+	}
 
-.menu_toggler.active > span::after,
-.menu_toggler.active > span::before {
-    background: #005C9C;
-    top: 0;
-    
-}
+	.menu_toggler.active > span {
+		background: transparent;
+	}
 
-.menu_toggler.active > span::before {
-     transform: rotate(-225deg);
-}
+	.menu_toggler.active > span::after,
+	.menu_toggler.active > span::before {
+		background: #005C9C;
+		top: 0;
 
-.menu_toggler.active > span::after {
-     transform: rotate(225deg);
-}
+	}
 
-	
-	
-.main-nav {
+	.menu_toggler.active > span::before {
+		transform: rotate(-225deg);
+	}
+
+	.menu_toggler.active > span::after {
+		transform: rotate(225deg);
+	}
+
+
+
+	.main-nav {
 		display: none;
 	}
-	
-.main-nav {
-	  float: left;
-	    width: 100%;
-/*		display: block;*/
-	font-size: 1.8em;
-	
+
+	.main-nav {
+		float: left;
+		width: 100%;
+		/*		display: block;*/
+		font-size: 1.8em;
+
 	}
-	
+
 	.main-nav.active {
 		display: block;
 		transition: 2s;
-		
+		font-size: 1.2em;
+
 	}
-	
+
 	.main-nav li {
 		display: block;
 		margin: 0 auto;
 		text-align: center;
-	}
+		width: 100%;
+		transform: translatex(0%);
 	
+	}
 	.main-nav li a:link,
 	.main-nav li a:visited {
 		display: block;
@@ -262,12 +270,12 @@ span::after {
 		padding: 10px 0;
 		font-size: 100%;
 	}
-	
+
 	.main-nav li ul.dropdown {
 		display: block;
 		margin: 0 auto;
-/*		position: absolute;*/
-/*		left: 50;*/
+		/*		position: absolute;*/
+		/*		left: 50;*/
 		width: 100%;
 		text-align: center;
 	}
@@ -275,43 +283,42 @@ span::after {
 
 
 
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-/*	apply only when class is inside the sticky class*/
-	padding: 10px 0;
-	color: #555;
-}
-.sticky .main-nav {
-	margin-top: .6em;
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited {
+		/*	apply only when class is inside the sticky class*/
+		padding: 10px 0;
+		color: #555;
+	}
+	.sticky .main-nav {
+		margin-top: .6em;
 
-	
-}
-/*
+
+	}
+	/*
 
 .sticky .logo {
 	display: none;
 }
 */
+	.sticky .logo {
+		display: none;
+		/*	hide normal logo in sticky */
+	}
 
-.sticky .logo {
-	display: none;
-/*	hide normal logo in sticky */
-}
+	.sticky .logo2 {
+		display: block;
+		/*display it in the sticky state*/
+	}
 
-.sticky .logo2 {
-	display: block;
-/*display it in the sticky state*/
-}
-	
 	.section-footer {
 		height: auto;
 	}
-	
-		.wrap {
-	   min-height: calc(100vh - auto);
+
+	.wrap {
+		min-height: calc(100vh - auto);
 	}
 
-	
+
 }
 
 
@@ -321,6 +328,7 @@ span::after {
 
 
 /*small phones 0 to 400px*/
+
 @media only screen and (max-width: 480px) {
 	section {
 		padding: 25px 0;

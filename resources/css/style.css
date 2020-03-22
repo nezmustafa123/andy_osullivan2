@@ -659,6 +659,10 @@ cite {
 }
 
 
+/*****CALDENDAR****/
+.section-calender {
+	padding: 5em;
+}
 
 /*****CLIENTS*****/
 
@@ -669,6 +673,7 @@ cite {
 .client-carousel {
 	padding: 6em;
 	width: 100%;
+	height: 50vh;
 }
 
 .owl-dot {

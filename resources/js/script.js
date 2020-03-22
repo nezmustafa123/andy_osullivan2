@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
 
 $('.client-carousel').owlCarousel({
 	loop: true,
@@ -78,16 +78,16 @@ var menu = document.querySelector('.main-nav');
 
 
 iconMenu.addEventListener('click', function() {
-//	this.classList.toggle('active');
-	console.log('clicked');
+	this.classList.toggle('active');
+
 	    menu.classList.toggle('active');
 		menu.slideToggle(200);
 
-	var nav = $('.js--main-nav');
+//	var nav = $('.js--main-nav');
 
 //	nav.slideToggle(200);
 	
 	
 
 });
-});
+
