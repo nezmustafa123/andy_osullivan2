@@ -72,6 +72,7 @@ h1.hero-text-box__heading {
 }
 
 
+
 h4.hero-text-box__subheading {
 	color: #fff;
 	text-align: center;
@@ -538,7 +539,7 @@ div.feature__box h3 {
 	color: #fff;
 	font-size-adjust: auto;
 	width: 30%;
-	height: 30rem;
+	height: 10rem;
 /*	overflow-y: hidden*/
 	
 }
@@ -662,7 +663,19 @@ cite {
 /*****CALDENDAR****/
 .section-calender {
 	padding: 5em;
+
 }
+
+#datepicker {
+	color: black;
+	border: black;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1rem;
+}
+
 
 /*****CLIENTS*****/
 
@@ -720,6 +733,8 @@ cite {
 	width: 100%;
 	margin-left: 5%;
 	box-shadow: 0 2px 2px #c1b4b4;
+	height: 25rem;
+	position: relative;
 	
 }
 
@@ -727,8 +742,8 @@ cite {
 .plan-box div {
 	padding: 20px;
 	border-bottom: 1px solid #e8e8e8;
-	display: relative;
-	max-height: 115rem;
+	display: absolute;
+    overflow: auto;
 }
 
 .plan-price {

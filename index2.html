@@ -22,7 +22,7 @@
 	<!--  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
 	<link href="https://fonts.googleapis.com/css?family=Lato|Oswald|Roboto&display=swap" rel="stylesheet">
 
-   
+
 	<title>Andy O'Sullivan</title>
 	<link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
@@ -33,7 +33,7 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-	
+
 </head>
 
 <body>
@@ -446,9 +446,10 @@
 
 	<section class="section-calender">
 
-<!--		<iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=lsekdoq5nrhjlb3fnm1lphf6hg%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="500" height="500" frameborder="0" scrolling="no"></iframe>-->
-	
-<input type="date" id="datepicker">
+		<!--		<iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=lsekdoq5nrhjlb3fnm1lphf6hg%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="500" height="500" frameborder="0" scrolling="no"></iframe>-->
+
+		<h3 class="section-info__heading">Secure Your FREE Seat By Selecting Either A Monday (London Bridge) or Wednesday (Holborn) Meeting Date</h3>
+		<input type="date" id="datepicker">
 
 
 	</section>
@@ -542,11 +543,11 @@
 
 
 -->
-		
+
 			<form id="userform" class="form-container" method="post" action="mailer.php">
-			
-			<div class="row">
-			
+
+				<div class="row">
+
 				</div>
 
 				<div class="inner group">
@@ -652,40 +653,45 @@
 			<script src="https://cdn.datedropper.com/get/{{LICENSE}}"></script>
 			<script src="datedropper.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
-          	<!--
+			<!--
  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-1be71b65-34f5-4c1c-9f9c-5da4962ed8ad"></div>
 -->
 			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-			
+
 			<div class="elfsight-app-1be71b65-34f5-4c1c-9f9c-5da4962ed8ad"></div>
 			<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-           
+
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
 			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-            <script src="datedropper.js"></script>
+			<script src="datedropper.js"></script>
 			<script>
 				AOS.init();
 			</script>
 			<script>
 				$('input').dateDropper();
-		   </script>
-			
-			
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160700208-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+			</script>
+			<script src="resources/js/script.js"></script>
 
-  gtag('config', 'UA-160700208-1');
-	
-</script>
-<script src="pikaday.js"></script>
-<script>
-    var picker = new Pikaday({ field: document.getElementById('datepicker') });
-</script>
+
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160700208-1"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+
+				function gtag() {
+					dataLayer.push(arguments);
+				}
+				gtag('js', new Date());
+
+				gtag('config', 'UA-160700208-1');
+			</script>
+			<script src="pikaday.js"></script>
+			<script>
+				var picker = new Pikaday({
+					field: document.getElementById('datepicker')
+				});
+			</script>
 
 </body>
 
