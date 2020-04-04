@@ -524,6 +524,7 @@ img.andy_cam2 {
 .info-box-heading {
 	text-align: center;
 }
+
 .info-box:first-child {
 	text-align: right;
 	padding-right: 3%;
@@ -536,6 +537,12 @@ img.andy_cam2 {
 .info-box-heading {
 	margin-bottom: 1rem;
 	padding: 0.1rem;
+}
+.info-box-heading .speaking-club-subheading {
+	margin-bottom: 2rem;
+}
+.info-box-speaking {
+	margin-top: -6rem;
 }
 
 .info-text-paragraph {
@@ -1104,14 +1111,14 @@ a.send-btn:hover {
 
 footer {
 	background-color: #ffffff;
-	color: #ff2700;
+	color: #000;
 	font-size: 90%;
 	font-weight: 100;
 /*	height: 14rem;*/
 }
 
 .section-footer, section-footer {
-	color: #ff2700 !important;
+	color: #000 !important;
 }
 
 
@@ -1119,21 +1126,21 @@ footer {
 	list-style: none;
 /*	float: left;*/
 /*	display: block;*/
-	color: #ff2700;
+	color: #000;
 	text-decoration: none;
 	
 }
 
 
 .footer-nav li {
-    color: #ff2700;
+    color: #000;
 	display: block;
 	width: 100%;
 	margin-top: 1%;
 }
 .footer-nav li a {
 	text-decoration: none;
-	color: #ff2700;
+/*	color: #000;*/
 	
 }
 .social-links {
@@ -1144,16 +1151,20 @@ footer {
 
 /*.footer-nav li,*/
 .social-links li {
-	color: #ff2700;
+	color: #000;
 	display: inline-block;
 	margin-right: 20px;
    text-decoration: none;
 	
 }
 
+.social-links li.fab {
+	
+}
 .fab {
  font-size: 140%;
   margin-right: 0.2rem;
+	color: #ff2700;
 }
 
 
@@ -1171,7 +1182,7 @@ footer {
 .social-links li a:link,
 .social-links li a:visited {
 	text-decoration: none;
-	color: #ff2700;
+	color: #000;
 	transition: color 0.3s;
 
 }
@@ -1182,7 +1193,7 @@ ul.address,
 ul.details {
 	font-size: 1.1rem;
 	list-style: none;
-	color: #ff2700;
+	color: #000;
 }
 
 ul.address, 
