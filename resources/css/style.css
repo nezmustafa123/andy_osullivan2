@@ -1,5 +1,17 @@
 /*BASE STYLES*/
 
+@font-face {
+  font-family: 'Lato';
+  src: url('../../vendors/fonts/Lato.ttf'); /* IE9 Compat Modes */
+  src: url('../../vendors/fonts/Lato.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../vendors/fonts/Lato.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../vendors/fonts/Lato.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../vendors/fonts/Lato.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../vendors/fonts/Lato.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
 :root {
   --main-bg-color: #1F61C1;
 }
@@ -778,6 +790,7 @@ cite {
 
 
 .plan-box div {
+	
 	padding: 20px;
 	border-bottom: 1px solid #e8e8e8;
 	display: absolute;
@@ -796,9 +809,11 @@ cite {
 .plan-title h3 {
   margin: 0 auto;
 	text-align: center;
+	font-weight: bold;
 }
 .plan-box ul {
 	list-style: none;
+	height: 17rem;
 	
 }
 
@@ -1134,9 +1149,10 @@ footer {
 
 .footer-nav li {
     color: #000;
+	font-weight: 300;
 	display: block;
 	width: 100%;
-	margin-top: 1%;
+	margin-top: 3%;
 }
 .footer-nav li a {
 	text-decoration: none;
@@ -1144,9 +1160,12 @@ footer {
 	
 }
 .social-links {
+	width: 100%;
+	margin: 3%;
 	list-style: none; 
     color: #ff2700;
 	display: block;
+	text-align: center;
 }
 
 /*.footer-nav li,*/
@@ -1154,7 +1173,7 @@ footer {
 	color: #000;
 	display: inline-block;
 	margin-right: 20px;
-   text-decoration: none;
+    text-decoration: none;
 	
 }
 
@@ -1164,7 +1183,7 @@ footer {
 .fab {
  font-size: 140%;
   margin-right: 0.2rem;
-	color: #ff2700;
+  color: #ff2700;
 }
 
 
@@ -1194,6 +1213,8 @@ ul.details {
 	font-size: 1.1rem;
 	list-style: none;
 	color: #000;
+	margin: 2%;
+	margin-left: 25%;
 }
 
 ul.address, 
@@ -1209,6 +1230,7 @@ ul.details {
 
 
 .copyright {
+	margin-top: 2%;
 	text-align: center; 
 }
 

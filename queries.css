@@ -19,6 +19,12 @@
 	.section-footer {
 		height: 13rem;
 	}
+	
+	.social-links {
+		width: 100%;
+		display: inline-block;
+	}
+	
 
 }
 
@@ -57,6 +63,7 @@
 	.plan-box__container {
 		font-size: 0.8rem;
 		display: block;
+/*		height: 19rem;*/
 	}
 	.plan-box {
 		width: 100%;
@@ -90,6 +97,10 @@
 		left: 0;
 		bottom: 0;
 		width: 100%;
+	}
+	.social-links {
+		width: 100%;
+		display: inline-block;
 	}
 	.wrap {
 		min-height: calc(100vh - auto);
@@ -165,12 +176,36 @@
 	.plan-box__container {
 		font-size: 0.8rem;
 		display: block;
+        width: 90% !important;
+        margin: 0 auto;
+		position: relative;
 	}
 	.plan-box {
 		width: 100%;
 		margin-left: 0;
+		height: 20rem;
+		position: relative;
 	}
-
+    
+	
+	.plan-sign  {
+		position: absolute;
+		bottom: -1%;
+/*        left: 50;*/
+/*        right: */
+/*		width: 20rem;*/
+        margin: 0 auto;
+	}
+	.plan-sign a {
+/*		top: 50%;*/
+/*
+		transform: translateX(-50%);
+        transform: translateY(-50%);
+*/
+    
+	}
+	
+	
 	.andy_cam {
 		width: 100%;
 		margin: 0 auto;
@@ -323,12 +358,40 @@
 		min-height: calc(100vh - auto);
 	}
 
-
+   .social-links {
+		width: 100%;
+		display: inline-block;
+	}
+    .location {
+        width: 100% !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .address {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+.footer-title,
+ul.address, 
+ul.details {
+margin: 0% !important;
+}
 }
 
+@media only screen and (min-width: 767px){
+	.social-links {
+		width: 100%;
+		display: inline-block;
+	}
+}
 
-
-
+@media only screen and (max-width: 267px){
+	.social-links {
+		width: 100%;
+		display: inline-block;
+	}
+}
 
 
 
