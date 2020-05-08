@@ -64,10 +64,12 @@
 		font-size: 0.8rem;
 		display: block;
 /*		height: 19rem;*/
+            
 	}
 	.plan-box {
 		width: 100%;
 		margin-left: 0;
+        height: 25em;
 	}
 
 
@@ -183,29 +185,34 @@
 	.plan-box {
 		width: 100%;
 		margin-left: 0;
-		height: 20rem;
+		height: 25rem;
 		position: relative;
-	}
+        font-size: 1.4em;
+        font-weight: 100;
+        line-height: 1.5em;
+        text-align: center;
+        overflow-y: inherit;
+    }
     
 	
-	.plan-sign  {
-		position: absolute;
-		bottom: -1%;
-/*        left: 50;*/
-/*        right: */
-/*		width: 20rem;*/
-        margin: 0 auto;
+	.plan-sign {
+		position: relative;
+		bottom: 0%;
+        margin-top: 10%;
+        font-size: 1em;
+/*        margin: 0 auto;*/
+        
 	}
 	.plan-sign a {
-/*		top: 50%;*/
-/*
-		transform: translateX(-50%);
-        transform: translateY(-50%);
-*/
+	   position: absolute;
+      margin: 0 auto;
+}
     
-	}
-	
-	
+    .plan-sign a span {
+        position: relative;
+        
+    }
+    
 	.andy_cam {
 		width: 100%;
 		margin: 0 auto;
@@ -296,7 +303,7 @@
 		margin: 0 auto;
 		text-align: center;
 		width: 100%;
-		transform: translateX(-10%);
+		transform: translateX(-8%);
 		
 	
 	}
@@ -306,20 +313,44 @@
 		border: 0;
 		padding: 10px 0;
 		font-size: 100%;
+        text-align: center;
+        margin: 0 auto;
+     
 	}
+    
+    .main-nav li a:hover:after {
+        content: "";
+        margin: 0 auto; /* This will center the border. */
+        width: 10%; /* Change this to whatever width you want. */
+        padding-top: 20px; /* This creates some space between the element and the border. */
+        border-bottom: 1px solid black;
+    }
+	
+    
+   
 
-	.main-nav li ul.dropdown {
-		display: block;
-		margin: 0 auto;
+/*	.main-nav li ul.dropdown {*/
+/*		display: block;*/
+/*		margin: 0 auto;*/
 		/*		position: absolute;*/
 		/*		left: 50;*/
+/*
 		width: 100%;
 		text-align: center;
-	}
+*/
+/*	}*/
 	
+    .dropdown {
+        min-height: 10em;
+        z-index: 1;
+    }
 	.main-nav li ul.dropdown li {
 		text-align: center;
 	}
+    
+    #inner a:target .smenu{
+      max-height: 20em;
+}
 
 
 
@@ -372,11 +403,17 @@
         margin: 0 auto;
     }
     
-.footer-title,
-ul.address, 
-ul.details {
-margin: 0% !important;
-}
+  .footer-title,
+  ul.address,
+  ul.details {
+      margin: 0% !important;
+  }
+    
+   .footer-nav {
+        width: 100%;
+        text-align: center;
+        margin: 0% !Important;
+    }
 }
 
 @media only screen and (min-width: 767px){
@@ -384,6 +421,7 @@ margin: 0% !important;
 		width: 100%;
 		display: inline-block;
 	}
+
 }
 
 @media only screen and (max-width: 267px){

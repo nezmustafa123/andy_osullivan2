@@ -47,10 +47,11 @@
 				<!--		<img src="resources/img/andy_logo2.png" alt="Andy logo2" class="logo2">-->
 				<!--		include logo in  same place-->
 				<ul class="main-nav js--main-nav">
-					<li><a href="#hero">HOME</a></li>
+				
+					<li><a href="#hero" >HOME</a></li>
 					<li><a href="#features">ABOUT</a></li>
-					<li id="inner"><a href="#plans">PUBLIC SPEAKING COURSES</a>
-						<ul class="dropdown">
+					<li id="item"><a href="#plans">PUBLIC SPEAKING COURSES</a>
+						<ul id ="public-speaking-dropdown" class="dropdown smenu">
 							<li><a href="">London Public Speaking Club</a></li>
 							<li><a href="">Online Course</a></li>
 							<li><a href="">Fear of Public Speaking Workshop</a></li>
@@ -268,7 +269,7 @@
 							</ul>
 						</div>
 						<div class="plan-sign">
-							<a class="button" href=""><span>Book</span></a>
+							<a class="button" href="">Book Now</a>
 						</div>
 					</div>
 				</div>
@@ -288,7 +289,7 @@
 							</ul>
 						</div>
 						<div class="plan-sign">
-							<a class="button" href=""><span>Book</span></a>
+							<a class="button" href="">Book Now</a>
 						</div>
 					</div>
 				</div>
@@ -308,7 +309,7 @@
 							</ul>
 						</div>
 						<div class="plan-sign">
-							<a class="button" href=""><span>Book</span></a>
+							<a class="button" href="">Book Now</a>
 						</div>
 					</div>
 				</div>
@@ -504,10 +505,13 @@
 
 
 			</footer>
-
+            <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+            <script src="resources/js/script.js"></script>
+            <script src="resources/js/script2.js"></script>
+            
 
 			<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-			<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+			
 			<script src="resources/js/owl.carousel.js"></script>
 			<script src="resources/js/html5shiv.js"></script>
 			<script src="resources/js/jquery.waypoints.min.js"></script>
@@ -531,9 +535,12 @@
 				AOS.init();
 			</script>
 			<script>
-				$('input').dateDropper();
+//               $(document).ready(function() {
+//                    $('input').dateDropper();
+//                });
+				
 			</script>
-			<script src="resources/js/script.js"></script>
+<!--			<script src="resources/js/script.js"></script>-->
 
 
 			<!-- Global site tag (gtag.js) - Google Analytics -->
