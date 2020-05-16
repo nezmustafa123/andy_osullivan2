@@ -63,19 +63,41 @@
 	.plan-box__container {
 		font-size: 0.8rem;
 		display: block;
-/*		height: 19rem;*/
+     	height: 35rem;
             
 	}
 	.plan-box {
 		width: 100%;
 		margin-left: 0;
-        height: 25em;
+        height: 45rem;
 	}
 
+    
+    .plan-box {
+		width: 100%;
+		margin-left: 0;
+		height: 35rem;
+		position: relative;
+        font-size: 1em;
+        font-weight: 100;
+        line-height: 1.5em;
+        text-align: center;
+        overflow-y: hidden;
+    }
+    
+    
 
 	a.button {
 		width: 80%;
 	}
+    
+    .plan-sign {
+        position: relative;
+		bottom: 0%;
+        margin-top: 0%;
+        font-size: 1em;
+    }
+    
 	.plan-sign a span {
 		transform: translate(-50%, -50%);
 		top: 50%;
@@ -198,7 +220,7 @@
 	.plan-sign {
 		position: relative;
 		bottom: 0%;
-        margin-top: 10%;
+        margin-top: 0%;
         font-size: 1em;
 /*        margin: 0 auto;*/
         

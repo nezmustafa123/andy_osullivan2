@@ -13,3 +13,16 @@ header#hero_fear_workshop {
 .workshop-testimonials {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.7)), url(../img/workshop.jpg);
 }
+
+.hero_online {
+    	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.7)), url(../img/andy_tideway.jpg);
+}
+
+
+.public-speaking-box {
+    max-width: 20em;
+   max-height: 20em;
+    display: relative;
+    margin-top: 
+   
+}
