@@ -1,5 +1,20 @@
 $(document).ready(function(){
     
+    
+//$(".trigger").on('click', function(e) {
+//  $('.title').not($(this)).removeClass('open');
+//  $(this).toggleClass('open');
+//  $('.content').not($(this).next('.content')).slideUp();
+//  $(this).next('.content').slideToggle();
+//});
+
+  
+$('.dropbtn').click(function(){
+    $('.dropdown').toggleClass('display');
+});
+    
+    
+    
 $('.client-carousel').owlCarousel({
         loop: true,
         margin: 10,
