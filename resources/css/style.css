@@ -83,6 +83,7 @@ h1.hero-text-box__heading {
 	word-spacing: 4px;
 	margin: 0 auto;
     display: inline-block;
+    z-index: -9999;
 }
 
 
@@ -310,6 +311,7 @@ nav {
 	display: inline-block;
 	margin-left: 40px;
     position: relative;
+    z-index: 1;
 }
 
 .main-nav li a:link,
@@ -327,25 +329,31 @@ nav {
 }
 .dropdown {
   position: absolute;
-/*  width: 100%;*/
+  width: 100%;
    margin: 0 auto;
   text-align: center;
   z-index: 1;
    display: table;
   flex-wrap: wrap;
 /*  visibility: hidden;*/
-  transition: 2.3s;
-    top: -700%;
+  transition: 1s;
+    top: -1100%;
     
 }
 .dropdown li a {
     text-align: center;
 }
 
-ul li:hover .dropdown {
+.dropdowninvisible {
+    display: none;
+}
+
+.dropdownvisbile {
     visibility: visible;
+    display: initial;
     transition: 2.3s;
     top: 150%;
+    
 }
 
 ul li:hover > ul.dropdown,
@@ -368,21 +376,26 @@ ul li ul.dropdown li {
 }
 
 
-.main-nav li a:hover, 
-.main-nav li a:active {
-	border-bottom: 2px solid #1F61C1;
-}
+.main-nav li:hover, 
+.main-nav li:active {
+/*	border-bottom: 2px solid #1F61C1;*/
+    color: aqua;
+} 
 
 .main-nav li ul {
 /*	visibility: hidden;*/
-/*
+/*  
 	opacity: 0;
 	display: none;
 */
-/*    position: absolute;*/
+    
+    background-color: rgba(255, 255, 255, 0.69);
+    position: absolute;
+    padding: 1.5em;
 /*	transition: all 1s ease;*/
 /*	margin-top: 1rem;*/
-/*	right: 0;*/
+	right: 0;
+    
 }
 
 .main-nav li ul.dropdown li {
@@ -592,6 +605,35 @@ h2.package-header {
 div.feature__box h3 {
 	text-align: center;
 }
+
+.button-group {
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #1F61C1;
+    color: aliceblue;
+    margin: 0.1rem;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 0.1rem;
+    
+
+    height: 1.4rem;
+    width: auto;
+    padding: 0.4rem;
+    border-radius: 20px;
+    text-decoration: none;
+    word-break: normal;
+    text-align: center;
+    
+
+    
+}
+
+
+
 
 .plan-box {
 	color: #555;

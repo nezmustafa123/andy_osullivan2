@@ -36,7 +36,7 @@ $('.client-carousel').owlCarousel({
     $('.js--section-features').waypoint(function (direction) {
         if (direction === "down") {
             $('nav').addClass('sticky');
-
+          
         } else {
             $('nav').removeClass('sticky');
         }
@@ -45,6 +45,32 @@ $('.client-carousel').owlCarousel({
     });
 
 
+    
+    
+// init Isotope
+var $grid = $('.grid').isotope({
+  itemSelector: '.element-item',
+  layoutMode: 'fitRows'
+});
+$(".button-group a.button").click(function(){
+    $(".button-group a.button").removeClass("active");
+    $(this).addClass("active");
+    
+    var selector = $(this).attr("data-filter");
+    $(".container").isotope({
+        filter: selector
+    });
+    return false;
+});
+// filter functions
+
+
+    
+    
+    
+    
+    
+    
 
     //scroll
 
@@ -89,26 +115,26 @@ $('.client-carousel').owlCarousel({
 
         //	nav.slideToggle(200);
       var counter = 0;
-        $("#item").hover(
-            function () {
-                if(counter === 0) {
-                    $("#public-speaking-dropdown").css("display", "block");
-                    $("#public-speaking-dropdown").fadeIn();
-                    counter = 1;
-                }
-                
-                else {
-                 
-                    $("#public-speaking-dropdown").fadeOut();
-                    counter = 0;
-                }
-                
-            }
-        );
-
-        $("#item.fade").hover(function () {
-            $("#public-speaking-dropdown").fadeOut(100);
-            $("#public-speaking-dropdown").fadeIn(500);
-        });
+//        $("#item").onclick(
+//            function () {
+//                if(counter === 0) {
+//                    $("#public-speaking-dropdown").css("display", "block");
+//                    $("#public-speaking-dropdown").fadeIn();
+//                    counter = 1;
+//                }
+//                
+//                else {
+//                 
+//                    $("#public-speaking-dropdown").fadeOut();
+//                    counter = 0;
+//                }
+//                
+//            }
+//        );
+//
+//        $("#item.fade").onclick(function () {
+//            $("#public-speaking-dropdown").fadeOut(100);
+//            $("#public-speaking-dropdown").fadeIn(500);
+//        });
 
     });

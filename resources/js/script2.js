@@ -12,4 +12,12 @@ iconMenu.addEventListener('click', function(){
         menu.slideToggle(200);
   });
  
+     
+     
+$('#item').click(function(){
+   $('.dropdown').toggleClass('dropdownvisbile');
+    $('.dropdown').toggleClass('dropdowninvisbile');
+})
 });
+
+

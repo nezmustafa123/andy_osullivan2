@@ -51,7 +51,7 @@
 					<li><a href="#hero" >HOME</a></li>
 					<li><a href="#features">ABOUT</a></li>
 					<li id="item"><a class="title dropbtn" href="#plans">PUBLIC SPEAKING COURSES</a>
-						<ul id ="public-speaking-dropdown" class="dropdown">
+						<ul id ="public-speaking-dropdown" class="dropdown dropdowninvisible">
 							<li><a href="speakingclub.html">London Public Speaking Club</a></li>
 							<li><a href="online.html">Online Course</a></li>
 							<li><a href="fearworkshop.html">Fear of Public Speaking Workshop</a></li>
@@ -248,13 +248,21 @@
 
 
 	<section id="plans" class="section-plans">
-
-		<div class="row">
+<div class="row">
 			<h2 class="package-header">Weekley Speaking Meetings</h2>
 			<h3 class="package-header">3 Proven Ways Membership Will Help You Speak With Confidence at Every Weekly Meeting</h3>
+<div class="button-group filters-button-group">
+    <a class="button is-checked" data-filter=".public" href="#">Public speaking club</a>
+    <a class="button" data-filter=".online"  href="#">Online Coaching</a>
+    <a class="button"  data-filter=".fear"  href="#">Fear of Public Speaking workshop</a>
 
-			<div class="row">
-				<div class="col span-1-of-3 plan-box__container">
+
+</div>
+        
+        
+        
+			<div class="row grid">
+              <div class="col span-1-of-3 plan-box__container element-item public">
 					<div class="plan-box">
 						<div class="plan-title">
 							<h3>Spotlite Speeches</h3>
@@ -269,12 +277,12 @@
 							</ul>
 						</div>
 						<div class="plan-sign">
-							<a class="button" href="">Book Now</a>
+							<a class="button">Book Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="col span-1-of-3 plan-box__container">
+				<div class="col span-1-of-3 plan-box__container element-item public">
 					<div class="plan-box">
 						<div class="plan-title">
 							<h3>Structured Speeches</h3>
@@ -289,12 +297,12 @@
 							</ul>
 						</div>
 						<div class="plan-sign">
-							<a class="button" href="">Book Now</a>
+							<a class="button">Book Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="col span-1-of-3 plan-box__container">
+				<div class="col span-1-of-3 plan-box__container element-item public">
 					<div class="plan-box">
 						<div class="plan-title">
 							<h3>Spotlite Speeches</h3>
@@ -309,7 +317,65 @@
 							</ul>
 						</div>
 						<div class="plan-sign">
-							<a class="button" href="">Book Now</a>
+							<a class="button">Book Now</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col span-1-of-3 plan-box__container element-item online">
+					<div class="plan-box">
+						<div class="plan-title">
+							<h3>Spotlite Speeches</h3>
+							<h3 class="plan-price"></h3>
+						</div>
+						<div class="plan-detail">
+							<ul>
+								<li>Do you ever worry about having to answer questions in interviews, meetings or presentations?</li>
+								<li>With the focussed, quality training you receive, you'll quickly discover how you too can now create and deliver confident answers and speeches right on the spot. </li>
+								<li>Imagine what it will be like when you can confidently deliver last minute presentations and answer challenging questions.</li>
+								<li></li>
+							</ul>
+						</div>
+						<div class="plan-sign">
+							<a class="button">Book Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="col span-1-of-3 plan-box__container element-item online">
+					<div class="plan-box">
+						<div class="plan-title">
+							<h3>Spotlite Speeches</h3>
+							<h3 class="plan-price"></h3>
+						</div>
+						<div class="plan-detail">
+							<ul>
+								<li>Do you ever worry about having to answer questions in interviews, meetings or presentations?</li>
+								<li>With the focussed, quality training you receive, you'll quickly discover how you too can now create and deliver confident answers and speeches right on the spot. </li>
+								<li>Imagine what it will be like when you can confidently deliver last minute presentations and answer challenging questions.</li>
+								<li></li>
+							</ul>
+						</div>
+						<div class="plan-sign">
+							<a class="button">Book Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="col span-1-of-3 plan-box__container element-item online">
+					<div class="plan-box">
+						<div class="plan-title">
+							<h3>Spotlite Speeches</h3>
+							<h3 class="plan-price"></h3>
+						</div>
+						<div class="plan-detail">
+							<ul>
+								<li>Do you ever worry about having to answer questions in interviews, meetings or presentations?</li>
+								<li>With the focussed, quality training you receive, you'll quickly discover how you too can now create and deliver confident answers and speeches right on the spot. </li>
+								<li>Imagine what it will be like when you can confidently deliver last minute presentations and answer challenging questions.</li>
+								<li></li>
+							</ul>
+						</div>
+						<div class="plan-sign">
+							<a class="button">Book Now</a>
 						</div>
 					</div>
 				</div>
@@ -432,7 +498,7 @@
 					<div class="panel panel-right">
 						<div class="panel-content">
 							<div class="form group">
-								<h1 class="form__heading">Send a message</h1>
+								<h1 class="form__heading">Send Andy a message</h1>
 								<div class="form-group">
 									<input type="text" name="fullname" id="fullname" required>
 									<span class="highlight"></span>
@@ -509,6 +575,8 @@
           src="https://code.jquery.com/jquery-3.5.1.js"
            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
           crossorigin="anonymous"></script>
+           <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
             <script src="resources/js/script.js"></script>
             <script src="resources/js/script2.js"></script>
             
@@ -544,7 +612,7 @@
 				
 			</script>
 <!--			<script src="resources/js/script.js"></script>-->
-
+            
 
 			<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160700208-1"></script>
