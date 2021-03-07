@@ -70,14 +70,24 @@
 			<div class="hero-text-box">
 				<h1 class="hero-text-box__heading">Andy O' Sullivan</h1>
 				<h4 class="hero-text-box__subheading">International Best Selling Public Speaking Author - Speaker - Educator</h4>
-				<a class="btn btn-ghost" href="#">Andy's Public Speaking Book <i class="fas fa-eye"></i></a>
+				<a class="btn btn-ghost" id="modal-btn" href="#">Andy's Public Speaking Book <i class="fas fa-eye"></i></a>
 				<a id="features2" class="js--scroll-to-features btn btn-arrow" href=""><img class="arrow" src="resources/img/arrow.svg" alt="Down arrow"></a>
 
 			</div>
 	</header>
+	
+	<div class="modal-overlay">
+       <div class="modal-container">
+           <h3>Modal Content</h3>
+           <button class="close-btn">
+               <i class="fas fa-times"></i>
+            
+           </button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe accusantium cumque et doloremque ex at repudiandae aspernatur, inventore explicabo sunt rerum odio velit sed, iusto expedita unde temporibus animi. Rem.</p>
+       </div>
+   </div>
 
-	<section id="#features" class="section-features js--section-features">
-
+	<section id="#features" class="section-features js--section-features scroll-indicator" data-scroll-indicator-title="First Section">
 		<div id="features2" class="row">
 			<h2 class="features__box__heading">Helping Business Professionals Present & Pitch With Power</h2>
 			<p class="long-copy features__box__text ">Success Through Preparation</p>
@@ -120,7 +130,7 @@
 
 	</section>
 
-	<section class="group section-gallery">
+	<section class="group section-gallery scroll-indicator" data-scroll-indicator-title="Gallery-Section">
 		<ul class="group andy-showcase">
 			<li>
 				<figure class="andy-photo">
@@ -201,7 +211,7 @@
 
 	</section>
 
-	<section id="features" class="group section-info">
+	<section id="features" class="group section-info scroll-indicator" data-scroll-indicator-title="Features Section">
 		<div class="row">
 			<h2 class="section-info__heading">Just one chance.</h2>
 			<h3 class="section-info__subheading">to Impress Your Audience - Secure the Sale - Win the Investment</h3>
@@ -245,24 +255,23 @@
 
 
 
-
-
-	<section id="plans" class="section-plans">
+<section id="plans" class="section-plans">
 <div class="row">
 			<h2 class="package-header">Weekley Speaking Meetings</h2>
 			<h3 class="package-header">3 Proven Ways Membership Will Help You Speak With Confidence at Every Weekly Meeting</h3>
-<div class="button-group filters-button-group">
+<div class="button-group btn-container filters-button-group">
+<!--
     <a class="button is-checked" data-filter=".public" href="#">Public speaking club</a>
     <a class="button" data-filter=".online"  href="#">Online Coaching</a>
     <a class="button"  data-filter=".fear"  href="#">Fear of Public Speaking workshop</a>
+-->
 
 
 </div>
         
-        
-        
-			<div class="row grid">
-              <div class="col span-1-of-3 plan-box__container element-item public">
+        <div class="row grid section-center">
+<!--
+              <div class="col span-1-of-3 plan-box__container element-item" data-category="public">
 					<div class="plan-box">
 						<div class="plan-title">
 							<h3>Spotlite Speeches</h3>
@@ -281,104 +290,9 @@
 						</div>
 					</div>
 				</div>
+-->
 
-				<div class="col span-1-of-3 plan-box__container element-item public">
-					<div class="plan-box">
-						<div class="plan-title">
-							<h3>Structured Speeches</h3>
-							<h3 class="plan-price"></h3>
-						</div>
-						<div class="plan-detail">
-							<ul>
-								<li>Using our exclusive app, you’ll discover how to create and deliver successful speeches and presentations.</li>
-								<li>Each module of the training builds your skills and confidence to create, structure and deliver speeches, pitches and presentations.</li>
-								<li>You then have the opportunity to present your new speech during a meeting of the club and recieve applause!</li>
-								<li></li>
-							</ul>
-						</div>
-						<div class="plan-sign">
-							<a class="button">Book Now</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col span-1-of-3 plan-box__container element-item public">
-					<div class="plan-box">
-						<div class="plan-title">
-							<h3>Spotlite Speeches</h3>
-							<h3 class="plan-price"></h3>
-						</div>
-						<div class="plan-detail">
-							<ul>
-								<li>Receive feedback from public speaking experts!</li>
-								<li>After delivering your speech during a club meeting, you will receive personal feedback.</li>
-								<li>We will share with you specifically what you have done well and how you can now be even better next time. </li>
-								<li>Incorporating this regular expert feedback into all of your speeches will soon see your public speaking skills sky rocket to success!</li>
-							</ul>
-						</div>
-						<div class="plan-sign">
-							<a class="button">Book Now</a>
-						</div>
-					</div>
-				</div>
 				
-				<div class="col span-1-of-3 plan-box__container element-item online">
-					<div class="plan-box">
-						<div class="plan-title">
-							<h3>Spotlite Speeches</h3>
-							<h3 class="plan-price"></h3>
-						</div>
-						<div class="plan-detail">
-							<ul>
-								<li>Do you ever worry about having to answer questions in interviews, meetings or presentations?</li>
-								<li>With the focussed, quality training you receive, you'll quickly discover how you too can now create and deliver confident answers and speeches right on the spot. </li>
-								<li>Imagine what it will be like when you can confidently deliver last minute presentations and answer challenging questions.</li>
-								<li></li>
-							</ul>
-						</div>
-						<div class="plan-sign">
-							<a class="button">Book Now</a>
-						</div>
-					</div>
-				</div>
-				<div class="col span-1-of-3 plan-box__container element-item online">
-					<div class="plan-box">
-						<div class="plan-title">
-							<h3>Spotlite Speeches</h3>
-							<h3 class="plan-price"></h3>
-						</div>
-						<div class="plan-detail">
-							<ul>
-								<li>Do you ever worry about having to answer questions in interviews, meetings or presentations?</li>
-								<li>With the focussed, quality training you receive, you'll quickly discover how you too can now create and deliver confident answers and speeches right on the spot. </li>
-								<li>Imagine what it will be like when you can confidently deliver last minute presentations and answer challenging questions.</li>
-								<li></li>
-							</ul>
-						</div>
-						<div class="plan-sign">
-							<a class="button">Book Now</a>
-						</div>
-					</div>
-				</div>
-				<div class="col span-1-of-3 plan-box__container element-item online">
-					<div class="plan-box">
-						<div class="plan-title">
-							<h3>Spotlite Speeches</h3>
-							<h3 class="plan-price"></h3>
-						</div>
-						<div class="plan-detail">
-							<ul>
-								<li>Do you ever worry about having to answer questions in interviews, meetings or presentations?</li>
-								<li>With the focussed, quality training you receive, you'll quickly discover how you too can now create and deliver confident answers and speeches right on the spot. </li>
-								<li>Imagine what it will be like when you can confidently deliver last minute presentations and answer challenging questions.</li>
-								<li></li>
-							</ul>
-						</div>
-						<div class="plan-sign">
-							<a class="button">Book Now</a>
-						</div>
-					</div>
-				</div>
 			</div>
 
 		</div>
@@ -579,6 +493,8 @@
 
             <script src="resources/js/script.js"></script>
             <script src="resources/js/script2.js"></script>
+            <script src="resources/js/script3.js"></script>
+
             
 
 			<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>

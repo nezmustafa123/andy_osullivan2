@@ -46,33 +46,7 @@ $('.client-carousel').owlCarousel({
 
 
     
-    
-// init Isotope
-var $grid = $('.grid').isotope({
-  itemSelector: '.element-item',
-  layoutMode: 'fitRows'
-});
-$(".button-group a.button").click(function(){
-    $(".button-group a.button").removeClass("active");
-    $(this).addClass("active");
-    
-    var selector = $(this).attr("data-filter");
-    $(".container").isotope({
-        filter: selector
-    });
-    return false;
-});
-// filter functions
-
-
-    
-    
-    
-    
-    
-    
-
-    //scroll
+//scroll
 
     //$('.js--scroll-to-features').click(function() {
     //	$('html, body').animate({
